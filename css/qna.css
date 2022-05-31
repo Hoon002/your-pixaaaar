@@ -1,0 +1,45 @@
+#qna{
+    display: none;
+    background-color: whitesmoke;
+    width: 85%;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.questionList{
+    font-size: 30px;
+}
+
+.answerList{
+    display: block;
+    width: 100%;
+    list-style: none;
+    background-color: rgb(118, 193, 254);
+    border-radius: 16px;
+    font-size: 30px;
+    box-shadow: 3px 3px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.answerList:hover{
+    background-color: rgb(62, 169, 252);
+}
+
+.status{
+    height: 20px;
+    width: 85%;
+    border: 2px solid skyblue;
+    border-radius: 20px;
+}
+
+.statusBar{
+    height: 100%;
+    /*    
+    background: #e1ffff;
+    background: -moz-linear-gradient(left,  #e1ffff 0%, #fdffff 0%, #fdffff 0%, #e1ffff 7%, #e1ffff 12%, #e6f8fd 30%, #c8eefb 54%, #bee4f8 75%, #b1d8f5 100%); 
+    background: -webkit-linear-gradient(left,  #e1ffff 0%,#fdffff 0%,#fdffff 0%,#e1ffff 7%,#e1ffff 12%,#e6f8fd 30%,#c8eefb 54%,#bee4f8 75%,#b1d8f5 100%); 
+    background: linear-gradient(to right,  #e1ffff 0%,#fdffff 0%,#fdffff 0%,#e1ffff 7%,#e1ffff 12%,#e6f8fd 30%,#c8eefb 54%,#bee4f8 75%,#b1d8f5 100%); 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e1ffff', endColorstr='#b1d8f5',GradientType=1 ); */
+    background-color: rgb(46, 116, 173);
+
+    border-radius: 20px;
+}
